@@ -1,3 +1,4 @@
+Gromacs pipeline for solar cell hole transport layer using spiro, tbmp, tfsi.
 
 ./make_mdp.sh
 
