@@ -29,11 +29,9 @@ This repository contains a GROMACS-based workflow for simulating the hole transp
    sbatch run_nvt_npt_temperature_timer.slurm
    or sbatch run_nvt_npt_annealing.slurm
 
-
 3. **Plot result**
    ```bash
    plotter.py
-
 
 
 
