@@ -14,22 +14,27 @@ This repository contains a GROMACS-based workflow for simulating the hole transp
    ```bash
    ./make_mdp.sh
 
+2. **type in smiles molecules in get_acpype.sh**
+   ```bash
+   ./get_acpype.sh
 
-type in smiles molecules in get_acpype.sh
-./get_acpype.sh
-
-
-python3 rename_packmol_input.py folder1 folder2 folder3
-
-
-./prepare_gromacs_input.sh
-
-
-sbatch run_nvt_npt_temperature_timer.slurm
-or sbatch run_nvt_npt_annealing.slurm
+3. **Run this**
+   ```bash
+   python3 rename_packmol_input.py folder1 folder2 folder3
+   ./prepare_gromacs_input.sh
 
 
-plotter.py
+4. **Start the batch**
+   ```bash
+   sbatch run_nvt_npt_temperature_timer.slurm
+   or sbatch run_nvt_npt_annealing.slurm
+
+
+3. **Plot result**
+   ```bash
+   plotter.py
+
+
 
 
 optional:
