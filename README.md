@@ -14,8 +14,6 @@ This repository contains a GROMACS-based workflow for simulating the hole transp
    ```bash
    ./make_mdp.sh
 
-./make_mdp.sh
-
 
 type in smiles molecules in get_acpype.sh
 ./get_acpype.sh
