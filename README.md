@@ -36,5 +36,5 @@ optional:
 check_itp_charges.py
 estimate_density.py
 
-run_index.slurm if names are not 3 letters everywhere SPI exc...
+run_index.slurm if names are not 3 letters everywhere SPI for spiro etc...
 
